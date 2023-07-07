@@ -1,0 +1,91 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.html{
+  overflow: hidden;
+}
+footer{
+padding-top: 60px;
+}
+.container{
+  max-width: 1200px;
+  margin: 0px auto;
+  height: 100%;
+}
+.head{
+  display: flex;
+  padding-top: 20px;
+}
+.head__photo{
+  display: block;
+  order:1;
+  margin-top: 50px;
+  margin-left: 30px;
+  width: 300px;
+  height:300px;
+  border-radius:50%;
+}
+.main__head{
+  display: block;
+  order: 2;
+  margin: 100px 0 0 120px;
+}
+h1{
+  font-size: 32px;
+  color:#920606;
+}
+.head__h2,
+.information__head{
+  margin-top:20px;
+}
+.information__head{
+  margin-right: 20px;
+}
+.information{
+  display: flex;
+  flex-direction: row;
+}
+.information1{
+  display: block;
+  margin-left:50px;
+  width: 30%;
+}
+.information2{
+  display: block;
+  margin-left: 30px;
+}
+h2{
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 700;
+  color: #920606;
+}
+p,
+li,
+a{
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 150%;
+}
+.information2__education{
+  display: block;
+  margin-top: 20px;
+}
+.information2__block,
+ul{
+  margin-top:10px;
+}
+.work{
+  margin-top:5px;
+}
+.skills{
+  margin-top:20px;
+}
+.contacts{
+  display: flex;
+  flex-direction: column;
+}

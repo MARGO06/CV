@@ -3,36 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
   <title>CV</title>
 </head>
 <body>
+  <div class="container">
   <header class="head">
-    <p>Margarita Masko</p>
-    <h1>Frontend Developer (Junior) </h1>
-    <img src="/CV/35.jpg" alt="my photo" class="photo">
+    <div class="main__head">
+    <h1>Margarita Masko</h1>
+    <h2 class="head__h2">Frontend Developer (Junior) </h2>
+    <p class="information__head">
+      A competent, energetic, ambitious and highly-motivated professional with more than 10 years of successful experience in railway freight transport logistics and management.
+      Willing to work in a cross-functional teams in the frontend development  or in related areas.
+    </p>
+    </div>
+    <img src="/CV/35.jpg" alt="my photo" class="head__photo">
   </header>
   <main class="information">
     <div class="information1">
       <div class="contacts">
-        <a href="#" class="contacts_link"><p class="comtacts_mail">
-            <img src="/CV/icons8-почта-24.png" alt="email" class="email"> margaritam996@gmail.com </a></p>
+        <p class="comtacts_mail"><img src="/CV/icons8-почта-24.png" alt="email" class="email"> margaritam996@gmail.com </p>
         <a href="https://www.linkedin.com/in/margarita-masko-032011248/" target="_blank" class="comtacts_linkdin">LinkedIn</a>
         <a href="https://www.behance.net/margarytamasko" target="_blank" class="comtacts_linkdin">Behance</a>
         <a href="https://github.com/MARGO06" target="_blank" class="comtacts_linkdin">GitHub</a>
       </div>
       <div class="skills">
         <h2>Hard skills</h2>
-        <ul class="hard__skills">
-            <li>HTML5</li>
-            <li>CSS3</li>
+        <ul>
+            <li>HTML5,CSS3</li>
             <li>JS</li>
             <li>GIT</li>
             <li>SASS</li>
             <li>Figma</li>
-            <li>Photoshop</li>
         </ul>
+        <div class="skills">
         <h2>Soft skills</h2>
-        <ul class="soft__skills">
+        <ul>
             <li>Open for experiments and new challenges</li>
             <li>Fast learner</li>
             <li>Strategic planning and excellent organizational skills</li>
@@ -42,53 +49,57 @@
             <li>Responsible</li>
             <li>English:A2-B1</li>
         </ul>
+        </div>
       </div>
     </div>
     <div class="information2">
-      <p class="information__about-me">
-        A competent, energetic, ambitious and highly-motivated professional with more than 10 years of successful experience in railway freight transport logistics and management.
-        Willing to work in a cross-functional teams in the frontend development  or in related areas.
-      </p>
-      <div class="work__experience">
+      <div class="information2__work">
       <h2>Work experience</h2>
-        <div class="work">
+      <ul class="information2__block">
+        <li class="work">
           <p>December 2019 - present time - Group of companies 'Sodrugestvo'</p>   
           <p>Railway traffic supervisor</p>
-        </div>
-        <div class="work">
+        </li>
+        <li class="work">
           <p>May 2018 - December 2019 - Minsk Branch of Belarusian Railway</p>   
           <p>Railway traffic supervisor</p>
-        </div>
-        <div class="work">
+        </li>
+        <li class="work">
           <p>June 2012 - May 2018 - Minsk Branch of Belarusian Railway</p>   
           <p>Kolyaditchy station operator</p>
-        </div>
-        <div class="work">
+        </li>
+        <li class="work">
           <p>April 2011 - June2012 - Vitebsk Branch of Belarusian Railway</p>   
-          <p>Bogushevskay traffic supervisor</p>
-        </div>
+          <p>Bogushevskay station operator</p>
+        </li>
+      </ul>
       </div>
-      <div class="work__experience">
-        <h2>Work experience</h2>
-        <div class="experience">
-          <p>December 2022 - March 2023 - The Rolling Scopes Shool</p>   
-          <p>Frontend Developer (JavaScript)</p>
-        </div>
-        <div class="experience">
-          <p>January 2022 - April 2022 - Alchemy of Design</p>   
-          <p>Web designer UX/UI</p>
-        </div>
-        <div class="experience">
-          <p>September - December 2021 - UX Mind School</p>   
-          <p>Web designer UX/UI</p>
-        </div>
-        <div class="exprerience">
-          <p>2005 - 2010 - Belarusian State University 0f Transport</p>   
-          <p>Master of Science degree in railway transport management </p>
-          <p>Engineer </p>
-        </div>
+      <div class="information2__education">
+        <h2>Education</h2>
+        <ul class="information2__block">
+          <li class="experience">
+            <p>December 2022 - March 2023 - The Rolling Scopes Shool</p>   
+            <p>Frontend Developer (JavaScript)</p>
+          </li>
+          <li class="experience">
+            <p>January 2022 - April 2022 - Alchemy of Design</p>   
+            <p>Web designer UX/UI</p>
+          </li>
+          <li class="experience">
+            <p>September - December 2021 - UX Mind School</p>   
+            <p>Web designer UX/UI</p>
+          </li>
+          <li class="exprerience">
+            <p>2005 - 2010 - Belarusian State University 0f Transport</p>   
+            <p>Master of Science degree in railway transport management </p>
+            <p>Engineer </p>
+          </li>
+        </ul>
       </div>
     </div>
   </main>
+  <footer>
+  </footer>
+  </div>
 </body>
 </html>
