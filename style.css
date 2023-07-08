@@ -1,0 +1,114 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  max-width: 1200px;
+  margin: 0px auto;
+  height: 100%;
+}
+.head{
+  display: flex;
+  padding-top: 20px;
+}
+.head__photo,
+.main__head,
+.head__img,
+.main,
+.aside,
+.main__education{
+  display: block;
+}
+.head__photo{
+  order:1;
+  margin-top: 50px;
+  margin-left: 30px;
+  width: 300px;
+  height:320px;
+  border-radius:50%;
+}
+.main__head{
+  order: 2;
+  padding-left: 80px;
+  margin: 100px 0 100px 0;
+  width: 70%;
+}
+.head__profession,
+.information__head,
+.main__education,
+.skills{
+  margin-top: 20px;
+}
+.information__head{
+  margin-right: 20px;
+}
+.information,
+.email{
+  display: flex;
+  flex-direction: row;
+}
+.aside{
+  width: 30%;
+  padding-bottom: 30px;
+}
+.main{
+  padding-left: 80px;
+}
+p,
+li,
+a,
+h2,
+h1{
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 150%;
+}
+h2{
+  font-size: 24px;
+  font-weight: 700;
+}
+h1{
+  font-size: 32px;
+}
+.list,
+.list__item,
+.contacts__mail,
+.contacts__img,
+ul{
+  margin-top:10px;
+}
+.contacts{
+  display: flex;
+  flex-direction: column;
+}
+.head__img,
+.aside{
+  background-color: rgba(150, 147, 147, 0.3);
+}
+.head__img{
+  width: 30%;
+}
+.contacts,
+.skills{
+  padding-left: 50px;
+}
+.main__head{
+  background-color: rgb(251, 227, 234);
+}
+.contacts__img{
+  height: 24px;
+}
+.contacts__mail{
+  margin-left: 5px;
+}
+a{
+  color:#d50f68;
+  text-decoration: none;
+}
+h1,
+h2,
+a:hover{
+  color: #920606;
+}
